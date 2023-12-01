@@ -2,7 +2,7 @@
 
 public abstract class AFoundation
 {
-    public required string Material { get; init; }
+    public string Material { get; init; }
     public double Width { get; init; }
     public double Length { get; init; }
 

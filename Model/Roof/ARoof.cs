@@ -2,10 +2,10 @@
 
 public abstract class ARoof
 {
-    public required string Material { get; init; }
-    public required double Width { get; init; }
-    public required double Length { get; init; }
-    public required double Height { get; init; }
+    public string Material { get; init; }
+    public double Width { get; init; }
+    public double Length { get; init; }
+    public double Height { get; init; }
 
     protected ARoof(string material, double width, double length, double height)
     {

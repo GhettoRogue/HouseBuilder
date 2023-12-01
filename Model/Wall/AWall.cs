@@ -5,9 +5,9 @@ namespace HouseBuilder.Model.Wall;
 
 public abstract class AWall
 {
-    public required string Material { get; init; }
-    public required double Height { get; init; }
-    public required double Length { get; init; }
+    public string Material { get; init; }
+    public double Height { get; init; }
+    public double Length { get; init; }
 
     private readonly List<AWindow> _windows;
     public IEnumerable<AWindow> Windows => _windows;
