@@ -1,7 +1,6 @@
 ﻿using HouseBuilder.Model.Foundation;
-using RockFoundation = HouseBuilder.Factory.FoundationFactory.RockFoundation;
 
-namespace HouseBuilder.Factory.FundationFactory;
+namespace HouseBuilder.Factory.FoundationFactory;
 
 public abstract class AFoundationFactory : IFactory<AFoundation>
 {
@@ -14,5 +13,5 @@ public abstract class AFoundationFactory : IFactory<AFoundation>
         Length = length;
     }
 
-    public abstract RockFoundation Create();
+    public abstract AFoundation Create();
 }
