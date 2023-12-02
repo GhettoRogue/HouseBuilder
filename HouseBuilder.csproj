@@ -8,9 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Factory\DoorFactory\" />
-      <Folder Include="Factory\WallFactory\" />
-      <Folder Include="Factory\WindowFactory\" />
       <Folder Include="Model\" />
     </ItemGroup>
 
